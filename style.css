@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 217, 255), white);
+}
+
+.container {
+
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(170, 245, 241), white);
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+    justify-content: space-around;
+    border-radius: 15px;
+    
+}
+
+button {
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(49, 231, 244));
+    padding: 1em;
+    border: 2px solid white;
+}
+
+.work {
+    color: black;
+}
+
+.hobby {
+    color: red;
+}
+
+.general {
+    color: purple;
+}
+
+.gym {
+    color: rgb(243, 60, 231);
+}
+
+.categories {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
